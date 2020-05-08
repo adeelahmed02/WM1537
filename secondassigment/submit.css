@@ -1,0 +1,18 @@
+
+*{text-align: center;}
+
+
+.far{
+    font-size:200px; 
+    font-weight: 500; 
+    color:#00b42b;
+}
+h1{
+    color: #00b42b;
+}
+h2{
+    color: #912ab8;;
+}
+a>h1{
+    color: #761ca7;
+}
