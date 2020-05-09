@@ -1,11 +1,5 @@
 /* PC */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    ;
-}
-
 @media screen and (min-width:768px) {
     .one {
         display: flex;
@@ -23,17 +17,6 @@
     .three>a>button {
         color: rgb(17, 223, 171) !important;
         font-size: 11px;
-    }
-    .nav-item>a {
-        color: black !important;
-        font-weight: 600;
-        padding-right: 35px !important;
-    }
-    a:hover {
-        border-radius: 20px;
-        background-color: #316DC3;
-        color: white !important;
-        font-weight: 600;
     }
 }
 
@@ -61,12 +44,5 @@
         color: rgb(17, 223, 171) !important;
         margin-right: 20px;
         margin-left: 20px;
-    }
-    li:hover {
-        background-color: #316DC3;
-        color: white !important;
-        font-weight: 600;
-        margin: 0px;
-        padding: 5px;
     }
 }
