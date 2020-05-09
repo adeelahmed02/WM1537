@@ -59,8 +59,8 @@
     }
     .three>a>button {
         color: rgb(17, 223, 171) !important;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     li:hover {
         background-color: #316DC3;
