@@ -41,3 +41,13 @@ a{
     color: white;
     background-image: linear-gradient(to bottom, #094cb1, #1348c3, #2e40d4, #4b32e1, #6a12eb);}
 
+
+    .other{
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        color: black;
+        background-color: blanchedalmond;
+        padding: 10px;
+    }
+
