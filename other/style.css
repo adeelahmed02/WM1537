@@ -21,19 +21,28 @@
         font-size: 14px;
     }
     .three>a>button {
-        color: rgb(17, 223, 171) !important;
+        color: rgb(5, 156, 63) !important;
         font-size: 11px;
+        border: 1px solid rgb(5, 156, 63);
     }
-    .nav-item>a {
-        color: black !important;
-        font-weight: 600;
-        padding-right: 35px !important;
-    }
-    a:hover {
+    ul>.nav-item>a:hover {
         border-radius: 20px;
         background-color: #316DC3;
         color: white !important;
         font-weight: 600;
+    }
+    .nav-link {
+        color: black !important;
+        font-weight: 500;
+    }
+    .soci>li,
+    .fa {
+        color: white;
+        display: inline-flex;
+        margin: 0px 5px;
+    }
+    .soci {
+        margin: 0px;
     }
 }
 
@@ -68,5 +77,11 @@
         font-weight: 600;
         margin: 0px;
         padding: 5px;
+    }
+    .soci>li,
+    .fa {
+        color: white;
+        display: inline-flex;
+        margin: 0px 5px;
     }
 }

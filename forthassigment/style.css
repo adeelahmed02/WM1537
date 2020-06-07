@@ -1,0 +1,268 @@
+/* a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(228, 183, 6);
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 5px solid rgb(228, 183, 6);
+    padding: 0px;
+    margin: 0px;
+}
+
+.fa {
+    margin: 10px;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "AvenirNext", "Helvetica Neue", "Helvetica, Arial, sans-serif";
+}
+
+.h24 {
+    background-color: rgb(0, 118, 252);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.live2 {
+    padding: 5px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+
+.live {
+    background-color: white;
+    color: rgb(0, 118, 252);
+    padding: 5px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px !important;
+    font-weight: bold;
+}
+
+.active,
+.nav-item:hover {
+    background-color: rgb(251, 254, 255);
+    color: #007bff !important;
+    border-radius: 25px;
+}
+
+.bg-img1 {
+    background-image: url("bg.jpeg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 100px;
+}
+
+.big {
+    background-color: rgba(0, 0, 0, 0.315);
+    margin: 10px;
+    padding: 10px;
+    margin-top: 60px;
+    color: white;
+    text-shadow: 5px 5px 8px #000;
+    border: 5px solid white;
+}
+
+.bookingform {
+    height: 373px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 5px;
+}
+
+.booking {
+    width: 200px;
+    font-weight: bold;
+}
+
+.bookingbtn {
+    font-weight: bold;
+}
+
+.sec1 {
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.sec {
+    height: 250px;
+    background-color: rgb(0, 118, 252);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+    font-size: 30px;
+}
+
+footer .fa-facebook,
+footer .fa-twitter,
+footer .fa-instagram,
+footer .fa-youtube {
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    background-color: rgb(0, 118, 252);
+    border-radius: 25px;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .bookingform {
+        height: 280px;
+        margin-top: 60px;
+        background-color: rgba(0, 0, 0, 0.445);
+        padding: 5px;
+    }
+    .bg-img1 {
+        padding: 40px;
+        background-image: url("bg.jpeg");
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .big {
+        margin-left: 0px !important;
+    }
+    .big>h1 {
+        font-size: 20px !important;
+    }
+    .big>h5 {
+        font-size: 15px !important;
+    }
+    .big>p {
+        font-size: 12px !important;
+    }
+    .bookingform input,
+    .bookingform button {
+        font-size: 11px !important;
+    }
+    .mains {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .qu {
+        background-color: rgba(248, 239, 239, 0.39);
+        text-align: center;
+        padding: 10px;
+        line-height: 3em;
+        font-size: 13px;
+    }
+    footer {
+        background-color: rgb(2, 2, 2);
+        height: 200px;
+        color: white;
+    }
+    .copyri {
+        text-align: center;
+    }
+    .fa-briefcase,
+    .fa-plane,
+    .fa-comments {
+        font-size: 50px;
+        padding: 15px;
+    }
+    .copyri a>.fa {
+        color: white;
+    }
+    .soci,
+    .soci2 {
+        padding-top: 5px;
+    }
+    .tops {
+        text-align: center;
+    }
+    .sec {
+        margin-top: 10px;
+    }
+}
+
+
+/* PCCCCCCCCCCCCCCCCCCCCCCCCCCC laptop */
+
+@media only screen and (min-width: 993px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .big {
+        margin-left: 0px !important;
+    }
+    .big>h1 {
+        font-size: 30px !important;
+    }
+    .big>h5 {
+        font-size: 20px !important;
+    }
+    .big>p {
+        font-size: 18px !important;
+    }
+    .bookingbtn {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .qu {
+        background-color: rgba(248, 239, 239, 0.39);
+        text-align: center;
+        padding: 20px;
+        line-height: 3em;
+    }
+    footer {
+        background-color: rgb(2, 2, 2);
+        height: 200px;
+        color: white;
+    }
+    .copyri {
+        text-align: center;
+    }
+    .fa-briefcase,
+    .fa-plane,
+    .fa-comments {
+        font-size: 50px;
+        padding: 15px;
+    }
+    .copyri a>.fa {
+        color: white;
+    }
+    .navbar-brand {
+        box-shadow: 2px 2px 0px rgb(255, 255, 255);
+        background-color: rgb(255, 254, 254);
+        border-radius: 90px;
+        padding: 5px;
+    }
+    .bg-1 {
+        background-color: rgb(0, 118, 252);
+    }
+    .soci {
+        text-align: center;
+    }
+    .soci2 {
+        text-align: end;
+        margin-top: 1px;
+    }
+}
