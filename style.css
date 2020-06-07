@@ -13,9 +13,11 @@ a {
 }
 
 .Assigment {
+    margin-top: 10px;
     text-align: center;
     align-content: center;
     background-color: rgb(223, 219, 223);
+    border: 10px solid white;
 }
 
 .image {
