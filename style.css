@@ -12,6 +12,10 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 .Assigment {
     margin-top: 10px;
     text-align: center;
